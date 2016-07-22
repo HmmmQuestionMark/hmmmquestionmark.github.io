@@ -550,7 +550,7 @@ ul.icons li a {
   width: 3.75em;
   height: 3.75em;
   border-radius: 100%;
-  border: solid 1px #c8cccf;
+  border: solid 1px #414f57;
   line-height: 3.75em;
   overflow: hidden;
   text-align: center;
@@ -875,4 +875,7 @@ body.is-loading #main {
 /* line 37, ../sass/layout/_wrapper.scss */
 body.is-ie #wrapper {
   height: 100%;
+}
+.fa-youtube-play, .fa-github, fa-paypal {
+  color: #414f57;
 }
