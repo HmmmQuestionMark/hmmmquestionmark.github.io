@@ -876,6 +876,6 @@ body.is-loading #main {
 body.is-ie #wrapper {
   height: 100%;
 }
-.fa-youtube-play, .fa-github, .fa-paypal {
+.dark-icon {
   color: #414f57;
 }
