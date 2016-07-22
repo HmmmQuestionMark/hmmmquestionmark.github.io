@@ -256,7 +256,7 @@ sup {
 /* line 119, ../sass/base/_typography.scss */
 hr {
   border: 0;
-  border-bottom: solid 1px #c8cccf;
+  border-bottom: solid 1px #414f57;
   margin: 3em 0;
 }
 
@@ -294,7 +294,7 @@ textarea {
   -ms-appearance: none;
   appearance: none;
   border-radius: 4px;
-  border: solid 1px #c8cccf;
+  border: solid 1px #414f57;
   color: inherit;
   display: block;
   outline: 0;
@@ -339,7 +339,7 @@ textarea:focus {
 }
 /* line 62, ../sass/components/_form.scss */
 .select-wrapper:before {
-  color: #c8cccf;
+  color: #414f57;
   display: block;
   height: 2.75em;
   line-height: 2.75em;
@@ -409,7 +409,7 @@ input[type="radio"] + label:before {
 input[type="checkbox"] + label:before,
 input[type="radio"] + label:before {
   border-radius: 4px;
-  border: solid 1px #c8cccf;
+  border: solid 1px #414f57;
   content: '';
   display: inline-block;
   height: 1.65em;
@@ -522,7 +522,7 @@ ul.alt {
 }
 /* line 36, ../sass/components/_list.scss */
 ul.alt li {
-  border-top: solid 1px #c8cccf;
+  border-top: solid 1px #414f57;
   padding: 0.5em 0;
 }
 /* line 40, ../sass/components/_list.scss */
@@ -569,7 +569,7 @@ ul.icons li a:before {
 /* line 32, ../sass/main.scss */
 ul.icons li a:before {
   color: #ffffff;
-  text-shadow: 1.25px 0px 0px #c8cccf, -1.25px 0px 0px #c8cccf, 0px 1.25px 0px #c8cccf, 0px -1.25px 0px #c8cccf;
+  text-shadow: 1.25px 0px 0px #414f57, -1.25px 0px 0px #414f57, 0px 1.25px 0px #414f57, 0px -1.25px 0px #414f57;
 }
 /* line 43, ../sass/main.scss */
 ul.icons li a:hover:before {
@@ -649,7 +649,7 @@ button,
   padding: 0 1.5em;
   background-color: transparent;
   border-radius: 4px;
-  border: solid 1px #c8cccf;
+  border: solid 1px #414f57;
   color: #414f57 !important;
   cursor: pointer;
   text-align: center;
@@ -772,7 +772,7 @@ button:disabled,
   width: calc(100% + 6em);
   height: 1px;
   z-index: -1;
-  background: #c8cccf;
+  background: #414f57;
 }
 @media screen and (max-width: 480px) {
   /* line 13, ../sass/layout/_main.scss */
@@ -875,7 +875,4 @@ body.is-loading #main {
 /* line 37, ../sass/layout/_wrapper.scss */
 body.is-ie #wrapper {
   height: 100%;
-}
-.dark-icon {
-  color: #414f57;
 }
