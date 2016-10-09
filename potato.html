@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Potato's potato</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/potato.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-loading">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<section id="main">
+						<header>
+							<!--<span class="avatar"><img src="images/potato.png" alt="" /></span>-->
+							<h1>POTATO</h1>
+							<p>Potato, Potato, and Potato</p>
+						</header>
+						<hr />
+						<footer>
+							<ul class="icons">
+								<li><a href="https://github.com/HmmmQuestionMark" class="fa-spoon" title="Potato" alt="Potato">Potato</a></li>
+								<li><a href="https://youtube.com/HmmmQuestionMark" class="fa-cutlery" title="Potato" alt="Potato">Potato</a></li>
+								<li><a href="https://www.paypal.me/HQM/5" class="fa-leaf" title="Potato" alt="Potato">Potato</a></li>
+							</ul>
+						</footer>
+					</section>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<ul class="copyright">
+							<li>&copy; Potato</li>
+							<li>Potato <a href="http://html5up.net">potato</a>.</li>
+						</ul>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<!--[if lte IE 8]><script src="assets/js/respond.min.js"></script><![endif]-->
+			<script>
+				//if (window.location.protocol != "https:") {
+				//		window.location.href = "https:" + window.location.href.substring(window.location.protocol.length);
+				//}
+				if ('addEventListener' in window) {
+					window.addEventListener('load', function() { document.body.className = document.body.className.replace(/\bis-loading\b/, ''); });
+					document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
+				}
+			</script>
+	</body>
+</html>
